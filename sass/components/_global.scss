@@ -1,0 +1,37 @@
+:root {
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    --main-color: #212121;
+    --second-color: #757575;
+    --third-color: #fff;
+    --fourth-color: rgba(255, 255, 255, 0.6);
+    --fifth-color: #afb1b8;
+    --hover-color: #2196f3;
+    --first-background-color: #2f303a;
+    --second-background-color: #f5f4fa;
+  }
+  body {
+    font-family: var(--main-font);
+    background-color: var(--third-color);
+    color: var(--main-color);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul {
+    margin: 0;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }

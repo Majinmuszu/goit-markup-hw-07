@@ -1,20 +1,20 @@
 .modal {
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: visible;
-    transition-property: opacity, visibility;
-    transition-duration: 300ms;
-    transition-timing-function: linear;
-  }
-  .modal__content {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  transition-property: opacity, visibility;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+
+  &__content {
     position: relative;
     width: 528px;
     height: 581px;
@@ -24,8 +24,10 @@
     border-radius: 4px;
     padding: 40px;
   }
-  .modal--is-hidden {
+
+  &--is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
   }
+}

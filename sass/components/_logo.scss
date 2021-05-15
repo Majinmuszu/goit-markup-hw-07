@@ -5,13 +5,17 @@
     line-height: 1.2;
     text-decoration: none;
     letter-spacing: 0.03em;
+
+      &__header {
+      color: var(--main-color);
+    }
+
+      &__footer {
+      color: var(--third-color);
+    }
+    
+      &__span {
+      color: var(--hover-color);
+    }
   }
-  .header__logo {
-    color: var(--main-color);
-  }
-  .footer__logo {
-    color: var(--third-color);
-  }
-  .logo__span {
-    color: var(--hover-color);
-  }
+  

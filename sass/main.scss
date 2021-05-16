@@ -1,10 +1,13 @@
 @import "../sass/utils/variables";
-@import "../sass/components/global";
-@import "../sass/components/container";
-@import "../sass/components/section";
-@import "../sass/components/icon";
 
+@import "../sass/base/global";
+@import "../sass/base/container";
+@import "../sass/base/section";
+@import "../sass/base/icon";
+
+@import "../sass/components/btn";
 @import "../sass/components/logo";
+@import "../sass/components/h2";
 @import "../sass/components/social-list";
 @import "../sass/components/menu";
 @import "../sass/components/contacts";

@@ -13,15 +13,6 @@ ul {
   margin: 0;
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -42,6 +33,22 @@ ul {
   fill: currentColor;
 }
 
+.btn {
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -58,6 +65,15 @@ ul {
 }
 .logo__span {
   color: #2196f3;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .social {
@@ -207,23 +223,12 @@ ul {
   display: flex;
 }
 
-.newsletter__button {
-  width: 200px;
-  height: 50px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+.newsletter__btn {
   margin-left: 12px;
-  cursor: pointer;
+  padding-left: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: none;
 }
 
 .modal {
@@ -377,22 +382,9 @@ ul {
 .modal-form__chkbox-link {
   color: #2196f3;
 }
-.modal-form__button {
-  width: 200px;
-  height: 50px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #fff;
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+.modal-form__btn {
   align-self: center;
   margin-top: 30px;
-  border: none;
-  cursor: pointer;
 }
 
 .teammate {
@@ -540,19 +532,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-}
-.hero__button {
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 1.87;
-  color: #fff;
-  text-align: center;
-  letter-spacing: 0.06em;
-  padding: 10px 42px;
-  border: none;
 }
 
 .advantages__list {
